@@ -103,6 +103,6 @@ Once you're finished with these exercises, you can remove the images and contain
 $ docker image ls                      # List images, images can take up a lot of space
 $ docker container ls                  # List currently running containers
 $ docker container rm [CONTAINER_ID]   # Removes a container
-$ docker image rm alpine               # Removes the alpine image
+$ docker image rm nginx                # Removes the nginx image, optional but it does take up space
 ```
 
